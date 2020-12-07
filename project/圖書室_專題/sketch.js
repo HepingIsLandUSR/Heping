@@ -6,6 +6,10 @@ let bookshelf;
 let bookImgs;
 var boundaries = [];
 function preload(){
+  // bg = loadImage('more_poli.jfif');
+  // bg = loadImage('background2.jfif');
+  // bg = loadImage('poli_six.jfif');
+  // bg = loadImage('background.png');
   bookImg1 = loadImage('book1.png');
   bookImg2 = loadImage('book2.png');
   bookImg3 = loadImage('book3.png');
