@@ -57,7 +57,7 @@ function changeRoom() {
       $(".verticalScrollitem .year a").css("display", "flex");
       $(".verticalScrollitem .year a").attr(
         "href",
-        "https://hepingislandusr.github.io/Heping/USR/%E5%A4%A7%E8%88%AA%E6%B5%B7%E6%99%82%E4%BB%A3/index.html"
+        "../../%E5%A4%A7%E8%88%AA%E6%B5%B7%E6%99%82%E4%BB%A3/index.html"
       );
       $(".verticalScrollitem .leftpicture").css("opacity", "1");
       $(".verticalScrollitem .leftpicture img").attr(
