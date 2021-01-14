@@ -52,10 +52,13 @@ function changeRoom() {
       $(".title h1").text("歷史發展廳");
       $(".title p").css("font-size", "4.5vmin");
       $(".title p").text("大航海時代：西荷明鄭的交錯");
-      $(".verticalScrollitem .year").css("display", "none");
-      // $(".year").css("display", "flex");
-      // $(".year").css("opacity", "1");
-      // $(".year a").css("display","none")
+      $(".verticalScrollitem .year").css("display", "flex");
+      $(".verticalScrollitem .year").css("opacity", "1");
+      $(".verticalScrollitem .year a").css("display", "flex");
+      $(".verticalScrollitem .year a").attr(
+        "href",
+        "https://hepingislandusr.github.io/Heping/USR/%E5%A4%A7%E8%88%AA%E6%B5%B7%E6%99%82%E4%BB%A3/index.html"
+      );
       $(".verticalScrollitem .leftpicture").css("opacity", "1");
       $(".verticalScrollitem .leftpicture img").attr(
         "src",
