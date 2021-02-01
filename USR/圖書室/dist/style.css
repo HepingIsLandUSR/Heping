@@ -221,10 +221,10 @@ html, body {
   position: absolute;
   font-size: 2.3vmin;
   color: black;
-  left: 35%;
-  top: 50%;
-  height: 50%;
-  width: 65%;
+  left: 0%;
+  top: 0%;
+  height: 100%;
+  width: 100%;
   -webkit-transform: translateY(-50%) rotate(-90deg);
           transform: translateY(-50%) rotate(-90deg);
   z-index: 3;
@@ -526,10 +526,10 @@ html, body {
     position: absolute;
     font-size: 2.3vmin;
     color: black;
-    left: 42%;
+    left: 15%;
     top: 50%;
     height: 85%;
-    width: 45%;
+    width: 70%;
     -webkit-transform: translateY(-50%);
             transform: translateY(-50%);
     z-index: 3;
@@ -539,6 +539,7 @@ html, body {
   .content .scrollitem .intro p {
     padding: 0;
     margin: 0;
+    
     position: absolute;
   }
   .content .scrollitem .year {
