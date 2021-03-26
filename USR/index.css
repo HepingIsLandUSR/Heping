@@ -553,6 +553,13 @@ html,body{
   /*overflow: hidden;*/
   touch-action: none;
 }
+.counter{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 10px;
+  right: 30px;
+}
 .dock {
   width: 100px;
   height: 100px;
