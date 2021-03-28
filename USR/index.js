@@ -30,7 +30,6 @@ function dragStart(e) {
     active = true;
   }
 }
-
 function dragEnd(e) {
   initialX = currentX;
   initialY = currentY;
@@ -61,3 +60,5 @@ function drag(e) {
 function setTranslate(xPos, yPos, el) {
   el.style.transform = "translate3d(" + xPos + "px, " + yPos + "px, 0)";
 }
+
+<script type="text/javascript" src="//counter.websiteout.net/js/7/6/0/0"></script>
